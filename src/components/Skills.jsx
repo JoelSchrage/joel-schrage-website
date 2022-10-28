@@ -1,13 +1,17 @@
 import skillsData from "../data/skillsData";
 import Skill from "./Skill";
+import Headline from "./Headline";
 
 const Skills = () => {
     return (
         <section className="py-40">
             <div className="pb-10 max-w-3xl mx-auto text-center">
-                <h2 className="text-3xl md:text-5xl pb-5 text-white font-satoshi-black">
+                <Headline
+                    variant="h2"
+                    style="text-3xl md:text-5xl pb-2 text-white font-satoshi-black"
+                >
                     MERN Stack Developer
-                </h2>
+                </Headline>
                 <p className="text-xl py-3 text-slate-400">
                     I like to craft modern and scalable products with the
                     perfect development tools for great user experiences

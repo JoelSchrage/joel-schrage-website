@@ -5,6 +5,7 @@ import {
     AiFillInstagram,
     AiFillGithub,
 } from "react-icons/ai";
+import Headline from "./Headline";
 
 const Hero = () => {
     return (
@@ -15,17 +16,15 @@ const Hero = () => {
             <div className="w-1/2">
                 <div>
                     <span className="text-xl font-satoshi-medium">
-                        Hi, my name is Joel Schrage
+                        Hi 👋 my name is Joel Schrage
                     </span>
-                    <h1 className="text-5xl md:text-7xl tracking-tight py-2 text-white font-satoshi-black">
+                    <Headline
+                        variant="h1"
+                        style="text-5xl md:text-7xl tracking-tight py-2 text-white font-satoshi-black"
+                    >
                         I'm a creator of{" "}
                         <span className="magic">digital experiences</span>
-                    </h1>
-                    {/* <p className="text-md py-5 leading-8 text-xl max-w-xl text-white">
-                    MERN Stack (MongoDB, Express.js, React.js, Node.js) |
-                    Next.js | HTML5, CSS3 (Bootstrap & Tailwind CSS) JavaScript
-                    Entwickler, Bitcoin Enthusiast & leidenschaftlicher Gamer
-                </p> */}
+                    </Headline>
                 </div>
                 <div className="text-4xl flex gap-12 pt-12">
                     <AiFillLinkedin className="social" />

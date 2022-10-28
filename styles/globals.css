@@ -53,6 +53,8 @@ a {
     box-sizing: border-box;
 }
 
+/*  Start text color animation */
+
 @keyframes background-pan {
     from {
         background-position: 0% center;
@@ -65,11 +67,14 @@ a {
 
 .magic {
     animation: background-pan 6s linear infinite;
-    background: linear-gradient(to right, #8000ff, #cf59e6, #6bc5f8, #8000ff);
+    background: linear-gradient(to right, #c95105, #ffe602, #fefabb, #c95105);
+    /* background: linear-gradient(to right, #8000ff, #cf59e6, #6bc5f8, #8000ff); */
     background-size: 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/*  End text color animation */
 
 .social {
     transition: 0.6s;
@@ -84,9 +89,15 @@ a {
 .service,
 .testimonial {
     @apply border-solid border text-center;
+    transition: 1s;
     border-color: rgba(32, 34, 46, 1);
     border-radius: 25px;
     background: linear-gradient(rgba(42, 43, 56, 0.5), rgba(15, 15, 24, 0.5));
+}
+
+.service:hover {
+    transition: 1s;
+    box-shadow: 0 5px 25px rgba(255, 255, 255, 0.05);
 }
 
 .header {
@@ -96,22 +107,109 @@ a {
     border: 1px solid rgb(42, 43, 55);
     backdrop-filter: blur(104px);
     border-radius: 25px;
-    z-index: 99;
+    z-index: 999;
 }
 
 .footer {
     border-top: 1px solid rgb(42, 43, 55);
-    background: rgba(42, 43, 56, 0.5);
 }
 
-.skills img {
+.mail {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        /* transform: translatey(0px); */
+        transform: scale(95%);
+    }
+    50% {
+        /* transform: translatey(-20px); */
+        transform: scale(105%);
+    }
+    100% {
+        /* transform: translatey(0px); */
+        transform: scale(95%);
+    }
+}
+
+.skills img,
+.companies img {
     transition: 0.6s;
     filter: grayscale(100%);
     opacity: 0.5;
 }
 
-.skills img:hover {
+.skills img:hover,
+.companies img:hover {
     transition: 0.4s;
     filter: grayscale(0%);
     opacity: 1;
 }
+
+/*  Start companies Slider */
+
+.slider {
+    height: 100px;
+    position: relative;
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.slider::before,
+.slider::after {
+    position: absolute;
+    background-image: linear-gradient(
+        to right,
+        rgba(17, 16, 27, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    content: "";
+    height: 100%;
+    width: 25%;
+    z-index: 2;
+    pointer-events: none;
+}
+.slider::before {
+    left: 0;
+    top: 0;
+}
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slide-track1,
+.slide-track2 {
+    width: calc(150px * 15);
+    display: flex;
+    animation: scroll 25s linear infinite;
+    justify-content: space-between;
+}
+
+.slide-track2 {
+    animation-direction: reverse;
+}
+
+.slide {
+    width: 150px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(calc(-150px * 5));
+    }
+}
+
+/*  End companies Slider */

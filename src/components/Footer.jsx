@@ -1,8 +1,13 @@
 const Footer = () => {
+    const year = new Date().getFullYear();
+
     return (
-        <footer className="">
-            <div className="footer py-20 px-5">
-                <div className="text-center text-white py-10">Footer</div>
+        <footer className="pt-40">
+            <div className="footer py-5 px-20">
+                <div className="text-slate-500 text-sm py-10">
+                    &copy; Copyright 2022{year !== 2022 ? ` - ${year}` : null}{" "}
+                    Joel Schrage. All rights reserved.
+                </div>
             </div>
         </footer>
     );

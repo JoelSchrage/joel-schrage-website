@@ -52,6 +52,7 @@ export default function Home() {
                     "textarea",
                     "button",
                     ".clickable",
+                    ".mail",
                     "svg",
                     ".link",
                 ]}

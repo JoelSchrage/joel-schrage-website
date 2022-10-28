@@ -22,9 +22,12 @@ module.exports = {
             colors: {
                 ...colors,
                 "custom-dark": "#11101B",
-                "custom-purple": "#8000ff",
-                "custom-pink": "#cf59e6",
-                "custom-teal": "#6bc5f8",
+                "custom-purple": "#c95105",
+                "custom-pink": "#ffe602",
+                "custom-teal": "#fefabb",
+                // "custom-purple": "#8000ff",
+                // "custom-pink": "#cf59e6",
+                // "custom-teal": "#6bc5f8",
             },
             letterSpacing: {
                 tightest: "-.075em",

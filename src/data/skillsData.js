@@ -8,16 +8,12 @@ export default [
         imgUrl: "/assets/img/skills/Joel-Schrage-Skills-CSS3.png",
     },
     {
-        imgTitle: "Bootstrap",
-        imgUrl: "/assets/img/skills/Joel-Schrage-Skills-Bootstrap.png",
+        imgTitle: "JavaScript",
+        imgUrl: "/assets/img/skills/Joel-Schrage-Skills-JavaScript.png",
     },
     {
         imgTitle: "Tailwind CSS",
         imgUrl: "/assets/img/skills/Joel-Schrage-Skills-Tailwind-CSS.png",
-    },
-    {
-        imgTitle: "JavaScript",
-        imgUrl: "/assets/img/skills/Joel-Schrage-Skills-JavaScript.png",
     },
     {
         imgTitle: "React.js",
@@ -38,5 +34,9 @@ export default [
     {
         imgTitle: "MongoDB",
         imgUrl: "/assets/img/skills/Joel-Schrage-Skills-MongoDB.png",
+    },
+    {
+        imgTitle: "Vercel",
+        imgUrl: "/assets/img/skills/Joel-Schrage-Skills-Vercel.png",
     },
 ];

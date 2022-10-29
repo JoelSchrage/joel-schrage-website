@@ -1,5 +1,5 @@
 import Headline from "./Headline";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 const Contact = () => {
@@ -24,8 +24,9 @@ const Contact = () => {
                 <Link href="mailto:mail@joelschrage.com">
                     <Image
                         src="/assets/img/contact/Joel-Schrage-Contact.png"
-                        width={200}
-                        height={200}
+                        alt=""
+                        width={"200px"}
+                        height={"200px"}
                     />
                 </Link>
             </div>

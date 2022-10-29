@@ -1,7 +1,7 @@
 import companiesData from "../data/companiesData";
 import Company from "./Company";
 import Headline from "./Headline";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Companies = () => {
     return (
@@ -36,6 +36,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -45,6 +46,7 @@ const Companies = () => {
                         <div className="slide500">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -54,6 +56,7 @@ const Companies = () => {
                         <div className="slide0">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -63,6 +66,7 @@ const Companies = () => {
                         <div className="slide00">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -72,6 +76,7 @@ const Companies = () => {
                         <div className="slide0">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -82,6 +87,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -91,6 +97,7 @@ const Companies = () => {
                         <div className="slide500">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -100,6 +107,7 @@ const Companies = () => {
                         <div className="slide0">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -109,6 +117,7 @@ const Companies = () => {
                         <div className="slide00">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -118,6 +127,7 @@ const Companies = () => {
                         <div className="slide0">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -128,6 +138,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -137,6 +148,7 @@ const Companies = () => {
                         <div className="slide500">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -146,6 +158,7 @@ const Companies = () => {
                         <div className="slide0">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -155,6 +168,7 @@ const Companies = () => {
                         <div className="slide00">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -164,6 +178,7 @@ const Companies = () => {
                         <div className="slide0">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -180,6 +195,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -189,6 +205,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -198,6 +215,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -207,6 +225,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -216,52 +235,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -272,6 +246,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -281,6 +256,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -290,6 +266,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -299,6 +276,7 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"
@@ -308,6 +286,58 @@ const Companies = () => {
                         <div className="slide">
                             <Image
                                 src="/placeholder.jpg"
+                                alt=""
+                                width={"150px"}
+                                height={"100px"}
+                                objectFit="contain"
+                                className="slide"
+                            />
+                        </div>
+
+                        <div className="slide">
+                            <Image
+                                src="/placeholder.jpg"
+                                alt=""
+                                width={"150px"}
+                                height={"100px"}
+                                objectFit="contain"
+                                className="slide"
+                            />
+                        </div>
+                        <div className="slide">
+                            <Image
+                                src="/placeholder.jpg"
+                                alt=""
+                                width={"150px"}
+                                height={"100px"}
+                                objectFit="contain"
+                                className="slide"
+                            />
+                        </div>
+                        <div className="slide">
+                            <Image
+                                src="/placeholder.jpg"
+                                alt=""
+                                width={"150px"}
+                                height={"100px"}
+                                objectFit="contain"
+                                className="slide"
+                            />
+                        </div>
+                        <div className="slide">
+                            <Image
+                                src="/placeholder.jpg"
+                                alt=""
+                                width={"150px"}
+                                height={"100px"}
+                                objectFit="contain"
+                                className="slide"
+                            />
+                        </div>
+                        <div className="slide">
+                            <Image
+                                src="/placeholder.jpg"
+                                alt=""
                                 width={"150px"}
                                 height={"100px"}
                                 objectFit="contain"

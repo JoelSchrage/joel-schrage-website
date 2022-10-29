@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Headline from "./Headline";
 
 const Service = (props) => {
     return (
         <div className="p-10 pt-8 service text-slate-400 text-xl hover:shadow-white">
-            <Image src={props.src} width={200} height={200} />
+            <Image src={props.src} alt="" width={"200px"} height={"200px"} />
             <Headline
                 variant="h3"
                 style="text-2xl font-satoshi-bold text-white pt-4 pb-2"

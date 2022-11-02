@@ -1,7 +1,6 @@
 import companiesData from "../data/companiesData";
 import Company from "./Company";
 import Headline from "./Headline";
-import Image from "next/legacy/image";
 
 const Companies = () => {
     return (
@@ -19,331 +18,32 @@ const Companies = () => {
                 </p>
             </div>
             <div className="pt-10">
-                {/* <div className="companies grid grid-cols-2 text-gray-500 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
-                    {companiesData.map((skill, index) => {
-                        return (
-                            <Company
-                                key={index}
-                                imgUrl={skill.imgUrl}
-                                imgTitle={skill.imgTitle}
-                            />
-                        );
-                    })}
-                </div> */}
-
                 <div className="slider">
                     <div className="slide-track1">
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide500">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide0">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide00">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide0">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide500">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide0">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide00">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide0">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide500">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide0">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide00">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide0">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
+                        {companiesData.map((company, index) => {
+                            return (
+                                <Company
+                                    key={index}
+                                    imgUrl={company.imgUrl}
+                                    imgTitle={company.imgTitle}
+                                />
+                            );
+                        })}
                     </div>
                 </div>
             </div>
-
             <div className="pt-5">
                 <div className="slider">
                     <div className="slide-track2">
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
-                        <div className="slide">
-                            <Image
-                                src="/placeholder.jpg"
-                                alt=""
-                                width={"150px"}
-                                height={"100px"}
-                                objectFit="contain"
-                                className="slide"
-                            />
-                        </div>
+                        {companiesData.map((company, index) => {
+                            return (
+                                <Company
+                                    key={index}
+                                    imgUrl={company.imgUrl}
+                                    imgTitle={company.imgTitle}
+                                />
+                            );
+                        })}
                     </div>
                 </div>
             </div>
